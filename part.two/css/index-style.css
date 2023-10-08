@@ -1,0 +1,37 @@
+
+
+
+body{
+    --main-color:rgb(36, 53, 63);
+    --blue-color:#17A2B8;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: white;
+} 
+h1{
+    color: var(--blue-color);
+}
+.form-div{
+    width: 60%;
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+    background-color: var(--main-color);
+}
+.inter-form{
+    width: 85%;
+}
+input,.form-div,body{
+    background-color: var(--main-color);
+}
+
+button{
+    border-color:var(--blue-color); 
+    color: var(--blue-color);
+}
+button:hover{
+    color: white !important;
+    background-color: rgb(23, 162, 184) !important;
+    border-color:rgb(23, 162, 184) !important; 
+}
